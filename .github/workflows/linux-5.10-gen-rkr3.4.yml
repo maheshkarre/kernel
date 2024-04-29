@@ -46,10 +46,11 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: "v2024.02-6TOPS-rc1"
+          tag_name: "v2024.02-6TOPS"
           body: |
-            ## Linux Kernel 6TOPS rc1
-            - Include 5B DT
+            ## Linux Kernel 6TOPS
+            - LED
+            - HDMI Out
           files: |
            linux.tar.xz
            modules.tar.xz
