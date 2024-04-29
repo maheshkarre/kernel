@@ -9,7 +9,7 @@
 #include "rk3588-edgeble-neu6b-io.dtsi"
 
 / {
-	model = "Edgeble Neu6A-eDP0-HDMI-DSI0-DSI1-CAM0-CAM5";
+	model = "Edgeble NCM6A-eDP0-HDMI-DSI0-DSI1-CAM0-CAM1-CAM2-CAM3-CAM4-CAM5";
 	compatible = "edgeble,neural-compute-module-6a-io", "rockchip,rk3588";
 };
 
